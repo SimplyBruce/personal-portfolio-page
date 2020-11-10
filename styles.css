@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #d7cd5f;
+  background-image: linear-gradient(50deg, #d7cd5f 0%, #a1dd3f 100%);
+  z-index: 10;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
+
+.nav-list a {
+  font-size: 30px;
+  padding: 2rem;
+  color: black;
+  text-decoration-line: none;
+}
+
+#welcome-section {
+  text-align: center;
+  padding: 100px;
+  background-color: gray;
+  font-size: 25px;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+#project-title {
+  text-align: center;
+  text-decoration-line: underline;
+  font-size: 20px;
+  padding: 30px;
+}
+
+#projects {
+  background: #0f6817;
+  background-image: linear-gradient(70deg, #2c7633 10%, #1a471e 100%);
+}
+
+#images {
+  display: flex;
+  padding-left: 100px;
+}
+
+#icecube {
+  padding: 30px;
+  margin-left: 25px;
+  border: solid;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+#drugs {
+  padding: 30px;
+  margin-left: 100px;
+  border: solid;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+#survey {
+  padding: 30px;
+  margin-left: 100px;
+  border: solid;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+#projects p {
+  text-align: center;
+  padding: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+  background: darkgray;
+}
+
+footer img {
+  padding: 10px;
+}
+
